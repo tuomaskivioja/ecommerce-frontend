@@ -1,0 +1,95 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* Add this to App.css */
+.price-difference {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffecd1;
+  border-left: 4px solid #ffa500;
+  color: #333;
+}
+
+/* Additional styles in App.css */
+
+.cheaper {
+  color: green;
+  font-weight: bold;
+}
+
+.price-difference {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #007bff;
+}
+
+.product {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.product h3 {
+  margin: 0 0 10px 0;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+.red-text {
+  color: red;
+}
